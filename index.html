@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+    <head>
+        <!-- CSS only -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="{% static 'styles.css' %}" rel="stylesheet">
+        <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
+        <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href=
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+
+        <!-- Bootstrap Font Icon CSS -->
+        <link rel="stylesheet" href=
+    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+        <title>Welcome to Altai's world</title>
+        <script>
+          function random_photo() {
+            var my_photos = new Array ();
+            my_photos[1] = "static/pictures/1.jpg";
+            my_photos[2] = "static/pictures/2.jpg";
+            my_photos[3] = "static/pictures/3.jpg";
+            my_photos[4] = "static/pictures/4.jpg";
+            my_photos[5] = "static/pictures/5.jpg";
+            my_photos[6] = "static/pictures/6.jpg";
+            my_photos[7] = "static/pictures/7.jpg";
+            my_photos[8] = "static/pictures/8.jpg";
+            var rnd = Math.floor( Math.random() * my_photos.length );
+            if( rnd == 0 ) {
+              rnd = 1;
+            }
+            document.getElementById("random_photo").src = my_photos[rnd];
+          }
+      </script>
+    </head>
+    <body>
+        <div class="container" id="top-profile">
+            <div class="row">
+                <div class="my-5">
+                    <nav class="navbar navbar-expand-lg bg-light rounded fixed-top ">
+                        <div class="container-fluid ">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle bg-warning rounded" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  My passions
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="math_and_programming.html">Programming</a></li>
+                                  <li><a class="dropdown-item" href="art.html">Art</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active bg-info rounded mx-1" aria-current="page" href="">Me at Life</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active bg-danger rounded mx-2" aria-current="page" href="/blog/">My Blog</a>
+                              </li>
+                              <li class="nav-item">
+                                <img src="static/pictures/8.jpg" class="img-fluid rounded-circle"id="Profile" alt='Avatar' width="60" height="30">
+                              </li>
+                            </ul>
+                            <span class="navbar-text">
+                              <em class="lead">"Life is a bore, if you don't challenge yourself"</em>
+                            </span>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container bg-light mt-5 ml-3">
+          <div class="row">
+            <div class="col-lg-5">
+              <span class="mt-10"></span>
+              <card><p class="text-center fs-1 lead mt-20">My name is Altai. But you can call me Arutai.</p>
+                <img src="static/pictures/3.jpg" class="img-fluid rounded-circle">
+              </card>
+              <p class="text-center fst-italic mt-5">
+                I am Mongolian. I am now living in Ulaanbaatar, the capital of Mongolia. But I graduated in Darkhan city last year(Which means I am 18 now). My birthplace is Selenge Sukhbaatar. My dream is to become the most free motherfucker in the world.
+              </p>
+              <div class="row">
+                <div class="col-6 text-center">
+                  <h1><a href="#"><i class="bi bi-instagram"></i></a></h1><p class="text-fluid">altaii_g</p>
+                </div>
+                <div class="col-6 text-center">
+                  <h1><a href="#"><i class="bi bi-facebook"></i></a></h1><p class="text-fluid">Altai Gantumur</p>
+                </div>
+
+              </div>
+              <div class="text-center">
+                You can also contact me with mail: <a href="#">altaizandanbileg@gmail.com</a> 
+              </div>
+            </div>
+            <div class="col-lg-7 text-center">
+              <div class="container ">
+                <p class="text-center fst-italic m-5">
+                  So this website is all about me. I made it to journal every aspect of my character and my life to look back to my progress over the years in the future. So I am very simple person.
+                  I love programming, art and sports. These are the things that make me happy. In fact, I hated programming when I was first learning it. But over time, After I spend some time with coding,
+                  I realized that it is very fun but at the same time, very exhausting. But it is okay because I feel some form of happiness from creating something and the notion that I am making a progress 
+                  from my effort. For art, it is something I love from my childhood. The one thing I regret is that I did not spend much time for making art. But from now on, I will put my utmost effort into making 
+                  a masterpiece. Also, I am very active person. I cherish myself. I try to keep my body in its perfect state because it is too important for me. The main sports I like to spend time on are basketball, for my agility and fun, weigthlifting and bodyweigth-training, which is for 
+                  strength. I will trust the process. I will put things I find useful or the things I learned or just any updates from my doings. You can be sure that I will not spend your time with nothing trivial. So be with me.
+
+                </p>
+                <button id="random_photos_by_me_button" class="text-dark ml-5" onclick="random_photo()">Random photos by me</button><p class="fw-lighter">Just wait a few moment after clicking</p>
+                <img src="static/pictures/1.jpg" id="random_photo" class="img-fluid rounded">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="row">
+            <div class="text-center my-5">
+              <p>
+                Copyright &#169 2022 Altai Gantumur
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
